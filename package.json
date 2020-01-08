@@ -1,8 +1,8 @@
 {
   "name": "koa-router-static",
-  "version": "1.2.0",
-  "description": "Static file serving compatible with koa-router.",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Static file serving compatible with koa-router. rewrite with typescript",
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/MatheusMK3/koa-router-static/"
@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "koa-send": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/koa-send": "^4.1.2"
   }
 }
